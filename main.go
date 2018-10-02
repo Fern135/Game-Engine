@@ -27,8 +27,12 @@ func main(){
 // validating the user input
 func inputVal(input string){
 
-	if input == "Start" || input == "start" {
-
+	if input == "A" || input == "a" {
+		start()
 	}
 
+}
+
+func start(){
+	fmt.Println("This is for the start menu ")
 }
