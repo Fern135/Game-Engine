@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"https://github.com/faiface/pixel.git"// this is used for 2d frame work, need to read more into it 
 )
 
 //---------------//
