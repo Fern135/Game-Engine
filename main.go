@@ -35,4 +35,5 @@ func inputVal(input string){
 
 func start(){
 	fmt.Println("This is for the start menu ")
+	fmt.Println("This is another test")
 }
