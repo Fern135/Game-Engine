@@ -1,12 +1,14 @@
 package Go_Engine
 
+// "https://github.com/faiface/pixel.git"// this is used for 2d frame work, need to read more into it. it appears to not works for whatever
+//  reason 
+
 /*the libraries */
 import (
 	"bufio"
 	"fmt"
 	"os"
 	"strings"
-	"https://github.com/faiface/pixel.git"// this is used for 2d frame work, need to read more into it 
 )
 
 //---------------//
@@ -56,7 +58,7 @@ func start() {
 
 // closing the menu screen
 func exit() {
-
+	os.exit(1)// exiting the app 
 }
 
 // the graphics usage modifier of the entire game engine
