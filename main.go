@@ -73,6 +73,10 @@ func checkIfProjectExist() {
 	tmp()
 }
 
+func internetConnectedUpd(){
+	fmt.Println("This is to check if the internet is conented")
+}
+
 // temporary hold for the incoming functions. will try to not use OOP 
 func tmp() {
 	fmt.Println("Temp")
