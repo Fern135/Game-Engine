@@ -82,5 +82,5 @@ func internetConnectedUpd(){
 
 // temporary hold for the incoming functions. will try to not use OOP 
 func tmp() {
-	fmt.Println("Temp")
+	fmt.Println("Temporary placeholder")
 }
